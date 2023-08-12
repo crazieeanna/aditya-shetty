@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Shetty</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    
+    <section id="top">
+        <nav id="navigation-desktop">
+            <div class="logo">Aditya Shetty</div>
+            <div class="nav-bar">
+                <ul class="nav-links">
+                    <li><a href="/#about">About</a></li>
+                    <li><a href="/#experience">Experience</a></li>
+                    <li><a href="/#projects">Projects</a></li>
+                    <li><a href="/#contact">Contact</a></li>
+                    <li><button class="btn btn-primary"><a href="https://docs.google.com/document/d/e/2PACX-1vSXnakNqlrXzdvtsAJJkAPsBUWj7cUjbMtdrYnAb1i4sP7soIGkB3dPctqP1pqcksXYqsIZS-vwJLeO/pub">Resume</a></button></li>
+                </ul>
+            </div>
+        </nav>
+    
+        <nav id="navigation-mobile">
+            <div class="logo-mobile">Aditya Shetty</div>
+            <div class="hamburger">
+                <div class="hamburger-icon" onclick="onToggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <div class="nav-links-mobile">
+                        <li><a href="/#about" onclick="onToggleMenu()">About</a></li>
+                        <li><a href="/#experience" onclick="onToggleMenu()">Experience</a></li>
+                        <li><a href="/#projects" onclick="onToggleMenu()">Projects</a></li>
+                        <li><a href="/#contact" onclick="onToggleMenu()">Contact</a></li>
+                        <li><button class="btn btn-primary"><a href="https://docs.google.com/document/d/e/2PACX-1vSXnakNqlrXzdvtsAJJkAPsBUWj7cUjbMtdrYnAb1i4sP7soIGkB3dPctqP1pqcksXYqsIZS-vwJLeO/pub" onclick="onToggleMenu()">Resume</a></button></li>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section id="intro">
+        <div class="container-fluid d-flex justify-content-center">
+            <div class="row">
+                <div class="title-name">Aditya Shetty</div>
+            </div>
+        </div>
+        <div class="container-fluid d-flex justify-content-center">
+            <div class="row">
+                <div class="title-intro">I'm Web Developer</div>
+            </div>
+        </div>
+        <div class="container-fluid d-flex justify-content-center">
+            <div class="row">
+                <div class="title-bio">I Love
+                    <span id="element"></span>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid d-flex justify-content-center">
+            <div class="title-icon">
+                <a href="https://www.linkedin.com/in/aditya-shetty-b7503a205/"><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/crazieeanna"><i class="bi bi-github"></i></a>
+                <a href="https://www.instagram.com/adishetty_98/"><i class="bi bi-instagram"></i></a>
+                <a href="https://theindianfeet.wordpress.com/"><i class="bi bi-file-earmark-word-fill"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-6 col-sm-6">
+                   <img class="float-right about-image" src="images/aditya shetty cropped.jpg" alt="aditya-profile">
+                   <h2 class="about-header">About</h2>
+                    <p class="about-para">
+                       My name is Aditya Shetty and I'm a software engineer working towards creating an impact in tech. <br>
+                       I graduated from <span class="about-span"> Mumbai University </span> in 2021 with a degree in Electronics Engineering and I'm currently working an a Web Developer at <span class="about-span"> Tata Consultancy Services </span>, Mumbai. <br>
+                       Consistency and determination have always been the principles I've stood by in the process of acheiving my goals and this approach is what had eventually opened up opportunities for me to learn and work in the field of web development. Apart from my technical interests, I'm also an avid reader, football aficiando and an occasional blogger. I'd love it if you drop by my <span style="cursor: pointer;"> <a href="https://theindianfeet.wordpress.com/" class="about-span">blog!</a></span> 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/2ff8af3505.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Code', 'Write', 'Drink Coffee', 'Read', 'Analyse Football'],
+          typeSpeed: 200,
+        });
+    </script>
+</body>
+</html>

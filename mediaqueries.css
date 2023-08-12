@@ -1,0 +1,26 @@
+@media screen and (max-width: 1200px) {
+
+    #top {
+        position: relative;
+        right: 72px;
+    }
+
+    #navigation-desktop {
+        display: none;
+    }
+
+    #navigation-mobile {
+        display: flex;
+    }
+
+    .hamburger {
+        position: relative;
+        left: 115px;
+    }
+
+    .logo-mobile {
+        position: relative;
+        left: 20px;
+    }
+    
+}    
