@@ -1,5 +1,5 @@
 @media screen and (max-width: 1200px) {
-
+    /* top */
     #top {
         position: relative;
         right: 72px;
@@ -22,22 +22,48 @@
         position: relative;
         left: 20px;
     }
+    /* ends */
 
+    /* about */
     .about-header {
         text-align: center;
         position: relative;
-        left: 100px;
+        left: 110px;
     }
 
     .about-image {
         position: relative;
-        right: 75px;
+        right: 55px;
         top: 45px;
     }
 
     .about-para {
         padding-top: 245px;
         text-align: center;
+    }
+    /* ends */
+
+    /* experience */
+    .experience-header {
+        text-align: center;
+        position: relative;
+        right: 10px;
+    }
+
+    .experience-image {
+        position: relative;
+        left: 50px;
+        bottom: 10px;
+    }
+
+    .experience-title {
+        text-align: center;
+        margin-top: 240px;
+    }
+
+    .experience-para {
+        text-align: center;
+        margin-top: 15px;
     }
 
 }    
