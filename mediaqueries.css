@@ -22,5 +22,22 @@
         position: relative;
         left: 20px;
     }
-    
+
+    .about-header {
+        text-align: center;
+        position: relative;
+        left: 100px;
+    }
+
+    .about-image {
+        position: relative;
+        right: 75px;
+        top: 45px;
+    }
+
+    .about-para {
+        padding-top: 245px;
+        text-align: center;
+    }
+
 }    
