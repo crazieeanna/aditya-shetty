@@ -65,5 +65,73 @@
         text-align: center;
         margin-top: 15px;
     }
+    /* ends */
 
+    /* projects */
+    .projects-header {
+        text-align: center;
+        position: relative;
+        right: 12px;
+    }
+
+    .projects-tech-details {
+        display: none;
+    }
+
+    .projects-tech-mobile {
+        padding: 4px;
+        color: #fff;
+        background-color: #000;
+        margin: 10px;
+        position: relative;
+        bottom: 25px;
+        font-size: 12px;
+    } 
+
+    .projects-tech-mobile-recipe-book {
+        padding: 4px;
+        color: #fff;
+        background-color: #000;
+        margin: 10px;
+        position: relative;
+        right: 20px;
+        bottom: 60px;
+        font-size: 10px;
+    }
+
+    .projects-tech {
+        display: none;
+    }
+
+    .projects-button {
+        display: none;
+    }
+
+    .title-recipe-book-mobile {
+        position: relative;
+        top: 20px;
+    }
+
+    .para-recipe-book-mobile {
+        position: relative;
+        top: 45px;
+    }
+
+    .para-wordle-mobile {
+        position: relative;
+        top: 20px;
+    }
+    /* ends */
+
+    /* contact */
+    .contact-header {
+        text-align: center;
+        position: relative;
+        right: 12px;
+    }
+
+    .contact-para {
+        text-align: center;
+    }
+    /* ends */
 }    

@@ -199,7 +199,6 @@ a:hover {
 /*  ends */
 
 /* experience */
-
 #experience {
     margin-top: 75px;
 }
@@ -210,4 +209,88 @@ a:hover {
     float: left;
     width: 230px;
     height: 230px;
-} 
+}
+/* ends */
+
+/* projects */
+#projects {
+    margin-top: 75px;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.projects-details {
+    text-align: center;
+}
+
+.carousel-inner {
+    position: relative;
+    top: 30px;
+    height: 245px;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.projects-tech-details {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    margin-top: 10%;
+    position: relative;
+    bottom: 100px;
+    left: 390px;
+}
+
+.projects-tech-details-mobile-recipe-book {
+    display: none;
+}
+
+.projects-tech-details-mobile {
+    display: none;
+}
+
+.projects-tech {
+    margin-top: 2px;
+    border-radius: 2px;
+    margin-left: 2%;
+    padding: 5px;
+    font-size: 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    background-color: #000;
+}
+
+.projects-button {
+    margin-top: 2px;
+    border-radius: 2px;
+    margin-left: 2%;
+    padding: 5px;
+    font-size: 10px;
+    color: #000;
+    letter-spacing: 1px;
+    background-color: #fff;
+}
+
+.project-button-mobile {
+    display: none;
+}
+
+.wordle {
+    margin-left: 120px;
+}
+
+.recipe-book {
+    margin-left: 85px;
+}
+/* ends */
+
+/* contact */
+#contact {
+    margin-top: 110px;
+}
+
+.contact-span {
+    color: #F79327;
+}
+/* ends */
